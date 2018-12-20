@@ -24,9 +24,10 @@ class MainActivity : AppCompatActivity(), LocationListener, OnMapReadyCallback {
     override fun onMapReady(p0: GoogleMap?) {
         //este val mapa se  creo afuera como metodo de clase porque asi es accesible
         mapa = p0
-//hola
+//holadd
         //esto aparece luego de poner ONMAPREADYCALLBACK en la clase
-        //esto significa q cuando el mapa este listo, se haga algo
+        //esto significa q cuando el git push
+        // mapa este listo, se haga algo
         //se debe dar de nuevo los permisos entonces se deben pedir
       //  p0?.isMyLocationEnabled = true
         val permisos = arrayOf(Manifest.permission.ACCESS_FINE_LOCATION,Manifest.permission.ACCESS_COARSE_LOCATION)
