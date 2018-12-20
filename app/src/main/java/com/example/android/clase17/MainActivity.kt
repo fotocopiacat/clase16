@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity(), LocationListener, OnMapReadyCallback {
     override fun onMapReady(p0: GoogleMap?) {
         //este val mapa se  creo afuera como metodo de clase porque asi es accesible
         mapa = p0
-
+//hola
         //esto aparece luego de poner ONMAPREADYCALLBACK en la clase
         //esto significa q cuando el mapa este listo, se haga algo
         //se debe dar de nuevo los permisos entonces se deben pedir
